@@ -72,8 +72,17 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 1rem 1.5rem;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+header h2 {
+    color: #222;
+}
+
+header label span {
+    font-size: 1.7rem;
+    padding-right: 1rem;
 }
 
 .search-wrapper {
