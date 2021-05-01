@@ -170,6 +170,17 @@ main {
     color: #fff;
 }
 
+.recent-grid {
+    margin-top: 3.5rem;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns: 67% auto;
+}
+
+.card {
+    background: #fff;
+}
+
 table {
-    border-collapse: ;
+    border-collapse: collapse;
 }
