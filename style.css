@@ -221,3 +221,13 @@ td {
     font-size: 0.9rem;
     color: #222;
 }
+
+td status {
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+
+.status.purple {
+    color: rebeccapurple;
+}
