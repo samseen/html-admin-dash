@@ -222,10 +222,16 @@ td {
     color: #222;
 }
 
-td status {
+td .status {
+    display: inline-block;
     height: 20px;
     width: 20px;
     border-radius: 50%;
+}
+
+tr td:last-child {
+    display: flex;
+    align-items: center;
 }
 
 .status.purple {
