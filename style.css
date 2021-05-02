@@ -231,3 +231,7 @@ td status {
 .status.purple {
     color: rebeccapurple;
 }
+
+.status.pink {
+    color: deeppink;
+}
