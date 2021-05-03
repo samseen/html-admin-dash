@@ -263,3 +263,7 @@ tr td:last-child {
     display: flex;
     align-items: center;
 }
+
+.info img {
+    border-radius: 50%;
+}
