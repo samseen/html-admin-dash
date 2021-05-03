@@ -256,4 +256,10 @@ tr td:last-child {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+.info {
+    display: flex;
+    align-items: center;
 }
