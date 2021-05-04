@@ -67,6 +67,10 @@
     padding-right: 1rem;
 }
 
+#nav-toggle:checked + .sidebar {
+    width: 70px;
+}
+
 .main-content {
     margin-left: 345px;
 }
@@ -81,6 +85,10 @@ header {
     width: calc(100% - 345px);
     top: 0;
     z-index: 100;
+}
+
+#nav-toggle {
+    display: none;
 }
 
 header h2 {
