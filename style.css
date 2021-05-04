@@ -274,3 +274,8 @@ tr td:last-child {
     font-weight: 700;
     color: #222;
 }
+
+.info small {
+    font-weight: 600;
+    color: var(--text-grey)
+}
