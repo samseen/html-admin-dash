@@ -74,6 +74,7 @@
 #nav-toggle:checked + .sidebar .sidebar-brand,
 #nav-toggle:checked + .sidebar li {
     padding-left: 1rem;
+    text-align: center;
 }
 
 #nav-toggle:checked + .sidebar li a {
@@ -83,6 +84,10 @@
 #nav-toggle:checked + .sidebar .sidebar-brand h2 span:last-child,
 #nav-toggle:checked + .sidebar li a span:last-child {
     display: none;
+}
+
+#nav-toggle:checked ~ .main-content {
+    margin-left: 70px;
 }
 
 .main-content {
